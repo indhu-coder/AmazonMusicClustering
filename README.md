@@ -11,7 +11,7 @@ Dataset features expalanation:
  
 | **Feature Name**     | **Description**                                                                |
 | -------------------- | ------------------------------------------------------------------------------ |
-| **duration_ms**      | Average song length in milliseconds (e.g., 12.2 ≈ 2–3 minutes).                |
+| **duration_ms**      | Song length in milliseconds (e.g., 12.2 ≈ 2–3 minutes).                |
 | **danceability**     | Measures how suitable a track is for dancing (scale: 0–1).                     |
 | **energy**           | Describes the intensity or activity level of a song (higher = more energetic). |
 | **loudness**         | Overall average loudness in decibels (lower values = quieter).                 |
@@ -21,8 +21,8 @@ Dataset features expalanation:
 | **valence**          | Describes the musical positivity or mood (1.0 = happy, 0.0 = sad).             |
 | **tempo**            | The speed of the track in beats per minute (BPM).                              |
 | **popularity_songs** | The average popularity score of the song (based on user/stream data).          |
-| **followers**        | Average number of followers of the artist(s) associated with the track.        |
-| **year**             | Average release year of the track.                                             |
+| **followers**        | Total number of followers of the artist(s) associated with the track.        |
+| **year**             | Release year of the track.                                             |
 | **explicit**         | Indicates explicit content (1 = explicit, 0 = non-explicit).                   |
 | **mode**             | Musical mode: 1 = major (happy tone), 0 = minor (sad tone).                    |
 | **genres**           | Encoded numerical label for the genre (e.g., Pop=3, Rock=4, etc.).             |
