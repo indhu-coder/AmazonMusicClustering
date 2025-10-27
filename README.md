@@ -153,8 +153,15 @@ The result is
 
 <img width="576" height="324" alt="cluster mean dataframe" src="https://github.com/user-attachments/assets/342c1b51-37f5-45b5-92de-8a76dd775c3b" />
 
+<img width="576" height="324" alt="cluster sizes" src="https://github.com/user-attachments/assets/d1112b41-d228-4e3a-8792-cef97f207e0f" />
 
---->Mappiing the clusters labels
+Interpreting the cluster sizes
+Large clusters (0, 1, 2, 4, 6) likely represent the most popular and broadly appealing genres, as well as mainstream pop music. Since these categories contain a large portion of all music, they will naturally form the largest clusters.
+
+Small clusters (3, 5) could represent:
+Niche genres, which, by definition, have a smaller following and fewer releases than mainstream genres. For example, a cluster of experimental or regional music would be expected to be smaller.
+
+--->Mapping the clusters labels
 
     # Map the labels
     # cluster_mean['Cluster_Label'] = cluster_mean['clusters'].map(cluster_labels)
@@ -194,7 +201,7 @@ Then comes the heatmap visualization
       
   <img width="1280" height="612" alt="cluster feature heatmap final" src="https://github.com/user-attachments/assets/cec83514-bc48-4759-a92e-18d98fb4c1a0" />
 
---->Tracking the popular songs in each clusters
+--->Tracking the popular songs in each clusters by popularity term is shown.
 
     # top_by_popularity = data_copy_1.loc[
     #     data_copy_1.groupby('clusters')['popularity_songs'].idxmax()
@@ -204,6 +211,16 @@ Then comes the heatmap visualization
    
 
 <img width="576" height="324" alt="Top tracks" src="https://github.com/user-attachments/assets/20d330de-0d26-4c7a-badf-fbd07b92deb6" />
+
+Future Assignments:
+
+ >Tracking the songs in each clusters by year and followers also can be done.
+
+ >K-Means has its limitations: Standard k-means clustering can sometimes struggle with uneven cluster sizes and density.
+  It assumes spherical, equally-sized clusters and may split large, dense clusters or merge smaller ones to satisfy its objective of minimizing the within-cluster sum of      squares.
+ 
+ >Density-based algorithms are an alternative: Algorithms like HDBSCAN or OPTICS are better suited for finding clusters of varying sizes and densities.
+   They can also label noise, which would naturally separate outliers that might have formed small, less meaningful clusters in k-means result.
 
 
 
