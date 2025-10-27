@@ -150,14 +150,9 @@ Davies-Bouldin Index: 0.85
     }
 
 The result is
-clusters  duration_ms  danceability  ...  instrumentalness   valence       tempo
-0         0    12.128433      0.640336  ...          0.017736  0.764276  119.909174
-1         1    11.401251      0.665394  ...          0.000751  0.577352   99.960014
-2         2    12.343900      0.529471  ...          0.013855  0.378885  122.563400
-3         3    12.144783      0.456062  ...          0.814665  0.438876  109.281001
-4         4    12.236749      0.473227  ...          0.017215  0.342014  112.365235
-5         5    12.342558      0.567499  ...          0.764971  0.513224  126.312737
-6         6    12.270154      0.666640  ...          0.011172  0.788900  125.381790
+
+<img width="576" height="324" alt="cluster mean dataframe" src="https://github.com/user-attachments/assets/342c1b51-37f5-45b5-92de-8a76dd775c3b" />
+
 
 --->Mappiing the clusters labels
 
@@ -207,16 +202,8 @@ Then comes the heatmap visualization
     # print("\nTop tracks by popularity:")
     # print(top_by_popularity)
 
-  
-  Top tracks by popularity:
-        Id       duration_ms  danceability  energy  ...    tempo  popularity_songs  clusters
-        35437    12.062364         0.764   0.794  ...  110.013                86         0
-        35665    11.796456         0.778   0.695  ...  149.996                98         1
-        90870    11.003931         0.766   0.281  ...  137.246                70         2
-        35233    12.120651         0.450   0.329  ...   71.884                89         3
-        35241    11.982935         0.709   0.548  ...   83.995                91         4
-        35303    12.267878         0.599   0.537  ...  123.722                79         5
-        35422    12.134222         0.725   0.756  ...  100.070                92         6
+![Top tracks](https://github.com/user-attachments/assets/3a4a1cef-7dd8-4dd7-8e27-74556f9e0417)
+
           
         
                 
