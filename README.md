@@ -201,8 +201,12 @@ Then comes the heatmap visualization
     # ]
     # print("\nTop tracks by popularity:")
     # print(top_by_popularity)
+   
 
-![Top tracks](https://github.com/user-attachments/assets/3a4a1cef-7dd8-4dd7-8e27-74556f9e0417)
+<img width="576" height="324" alt="Top tracks" src="https://github.com/user-attachments/assets/20d330de-0d26-4c7a-badf-fbd07b92deb6" />
+
+
+
 
           
         
