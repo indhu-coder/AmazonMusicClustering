@@ -97,10 +97,19 @@ K-Means Clustering Technique:
   Finding the best K-value using Elbow method:
 
   <img width="640" height="480" alt="Elbow Method" src="https://github.com/user-attachments/assets/f524e050-02e3-4e3d-87c5-403474974672" />
-
   
-
+        Top tracks by popularity:
+               duration_ms  danceability  energy  ...    tempo  popularity_songs  clusters
+        35437    12.062364         0.764   0.794  ...  110.013                86         0
+        35665    11.796456         0.778   0.695  ...  149.996                98         1
+        90870    11.003931         0.766   0.281  ...  137.246                70         2
+        35233    12.120651         0.450   0.329  ...   71.884                89         3
+        35241    11.982935         0.709   0.548  ...   83.995                91         4
+        35303    12.267878         0.599   0.537  ...  123.722                79         5
+        35422    12.134222         0.725   0.756  ...  100.070                92         6
+          
         
+                
 
 
 
