@@ -35,6 +35,11 @@ EDA and Data Visualizations:
 
 --->Removing the unique features from the dataset such as name and ID of the songs and Artists name and Artists Id.
 
+--->Find the correalton between the features
+
+<img width="1280" height="612" alt="correaltion after cleaning data" src="https://github.com/user-attachments/assets/72577a21-2ab1-4b67-ab8d-6a8d0da7db6b" />
+
+
 --->Finding the outliers:
 
     plt.suptitle("Boxplot for different features")
