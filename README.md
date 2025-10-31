@@ -160,7 +160,8 @@ The result is
 
 <img width="576" height="324" alt="cluster mean dataframe" src="https://github.com/user-attachments/assets/342c1b51-37f5-45b5-92de-8a76dd775c3b" />
 
-<img width="576" height="324" alt="cluster sizes" src="https://github.com/user-attachments/assets/d1112b41-d228-4e3a-8792-cef97f207e0f" />
+<img width="576" height="324" alt="cluster sizes" src="https://github.com/user-attachments/assets/9b16e3d7-0306-4100-996e-2d911ed8dfc3" />
+
 
 Interpreting the cluster sizes
 Large clusters (0, 1, 2, 4, 6) likely represent the most popular and broadly appealing genres, as well as mainstream pop music. Since these categories contain a large portion of all music, they will naturally form the largest clusters.
