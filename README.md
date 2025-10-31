@@ -106,7 +106,8 @@ K-Means Clustering Technique:
 
   Finding the best K-value using Elbow method:
   
- <img width="640" height="480" alt="Finalised Elbow Method" src="https://github.com/user-attachments/assets/c98db359-f90d-4e44-b39d-023f2bde4172" />
+ <img width="640" height="480" alt="Final elbow method" src="https://github.com/user-attachments/assets/7fef264a-bc47-46da-8dab-9158330d8de7" />
+
 
   In this project,best K value is 3 as per the image shown above,but practically ony 3 clusters group for music data is not acceptable so I have taken k-value as 7.
 
@@ -135,7 +136,8 @@ Davies-Bouldin Index: 0.85
       plt.legend()
       plt.show()
 
-<img width="640" height="480" alt="Kmeans clustering" src="https://github.com/user-attachments/assets/f3e30f0d-ab29-41db-bd0c-4024799a61e7" />
+<img width="640" height="480" alt="Kmeans clustering" src="https://github.com/user-attachments/assets/7302f72a-4bc1-41dc-b5ea-bab965cf011c" />
+
 
 
 ---> Next comes grouping the clusters
