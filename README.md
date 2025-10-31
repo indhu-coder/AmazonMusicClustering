@@ -211,14 +211,19 @@ Then comes the heatmap visualization
 
 --->Tracking the popular songs in each clusters by popularity term is shown.
 
-    # top_by_popularity = data_copy_1.loc[
-    #     data_copy_1.groupby('clusters')['popularity_songs'].idxmax()
+    data['clusters']=clusters
+    data['cluster_name']=data['clusters'].map(cluster_labels)
+    data['name_song']=pd.read_csv("D:/Amazon Music Clustering/single_genre_artists.csv")['name_song']
+    
+    # top_by_popularity = data.loc[
+    #     data.groupby('clusters')['popularity_songs'].idxmax()
     # ]
     # print("\nTop tracks by popularity:")
     # print(top_by_popularity)
    
 
-<img width="576" height="324" alt="top tracks by popularity" src="https://github.com/user-attachments/assets/04f751b9-9816-4f4f-9bf5-4e8f553b072f" />
+<img width="576" height="324" alt="CLUSTER NAMES" src="https://github.com/user-attachments/assets/7d882432-d3b8-434e-b6b5-d97cbd3bb450" />
+
 
 
 --->Finally export the csv file with cluster label added in the original dataframe.
