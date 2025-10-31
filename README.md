@@ -218,7 +218,8 @@ Then comes the heatmap visualization
     # print(top_by_popularity)
    
 
-<img width="576" height="324" alt="Top tracks" src="https://github.com/user-attachments/assets/20d330de-0d26-4c7a-badf-fbd07b92deb6" />
+<img width="576" height="324" alt="top tracks by popularity" src="https://github.com/user-attachments/assets/04f751b9-9816-4f4f-9bf5-4e8f553b072f" />
+
 
 --->Finally export the csv file with cluster label added in the original dataframe.
 
